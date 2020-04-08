@@ -22,7 +22,7 @@ after_success:
   - docker push zefhon/multi-worker
 
 deploy: 
-  provider: elasticBeanStalk
+  provider: elasticbeanStalk
   region: us-east-1
   app: multi-docker
   env: MultiDocker-env 
