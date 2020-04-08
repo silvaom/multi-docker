@@ -5,8 +5,8 @@
 git add . 
 
 echo "what would you like to write in the comment section?" 
-read coments 
+read comments 
 
-git commit -m "'$coments'"
+git commit -m "'$comments'"
 
 git push origin master
